@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/Login.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <header class="header-container">
+
+    <div class="logo-container">
+    </div>
+
+    <nav class="nav-links">
+        <ul class="list-no-style">
+            <a href="Register.html" style="text-decoration: none; color: black; color: white;"><li>Sign Up</li></a>
+            <a href="adminLoginpage.html" style="text-decoration: none; color: black; color: white;"><li>Log-in as Admin</li></a>
+            <li class="logo" style="color: white;">F<span>OO</span>D CHOW</li>
+            <img src="./Images/master-chef-logo-vector.webp" alt="" height="70px" width="100px" style="border-radius: 50%; margin-top: -20px;">
+        </ul>
+    </nav>
+</header>
+    <div class="page-container" >
+        <div class="login-box">
+            <h2 style="color: white;">Login</h2>
+            <form id="submit-form">
+              <div class="user-box">
+                <label>Username</label>
+                <input type="text" name="" class="user-name" required>
+              </div>
+              <div class="user-box">
+                <label>Password</label>
+                <input type="password" name="" class="user-password" required>
+              </div>
+              <div class="submit">
+                  <button  onclick="Login()">Submit              
+            </button>
+              </div>
+            </form>
+          </div>
+          <div class="login-image">
+            <img src="./Images/login image.jpg" alt="" height="450px" width="600px" style="border-radius: 8px;">
+          </div>
+    </div>
+    <script src="scripts/Register.js"></script>
+</body>
+</html>

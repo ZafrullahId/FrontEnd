@@ -1,0 +1,152 @@
+html {
+    height: 100%;
+  }
+
+  body {
+    font-family: sans-serif;
+    height: 100%;
+    background-image: url('../Images/orsrc23489.jpg');
+  }
+
+  .page-container{
+    height: 100%;
+  }
+
+  .page-container{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    margin-left: 172.5px;
+  }
+
+  .register-box
+  {
+    position: absolute;
+    top: 58.39%;
+    left: 72.89%;
+    width: 400px;
+    height: 520px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 52.39%;
+    left: 72.77%;
+    width: 400px;
+    height: 450px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 8px;
+  }
+  
+  .page-container .login-image{
+    top: 25%;
+    margin-top: 25px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    height: fit-content;
+  }
+
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+    text-align: center;
+  }
+  .register-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+    text-align: center;
+  }
+   
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .register-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  .login-box .user-box label {
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .register-box .user-box label {
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .register-box .user-box select{
+    margin-top: 25px;
+  }
+
+  .register-box .user-box option{
+    height: 30px;
+    box-sizing: 20px;
+  }
+
+button{
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+      background-color: #fff;
+      width: 100px;
+      box-shadow: 0 15px 25px rgba(0,0,0,.6);;
+      border-radius: 6px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+button:hover{
+  background:gray;
+}
+
+#gender{
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  margin: 8px 0;
+  height: 50px;
+  border: none;
+ border-bottom: 1px solid #fff;
+ background: transparent;
+ color: white;
+ outline: none;
+ font-size: 16px;
+}
+
+

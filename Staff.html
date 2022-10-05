@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/staff.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="add-box">
+            <h2>Add Staff</h2>
+            <form class="add-food-form">
+                <div class="add-form">
+                    <label for="" ><h4>Username</h6></label>
+                    <input type="text" name="" id="username" class="inp" required>
+                </div class="add-form">
+                <div>
+                    <label for=""><h4>E-mail</h4></label>
+                    <input type="email" name="" id="email" class="inp" style="border: none; border-bottom: 1px solid black;width: 100%;outline: none;" required>
+                </div>
+                <div class="add-form">
+                    <label for=""><h4>Password</h4></label>
+                    <input type="password" name="" id="password" class="inp" required>
+                </div>
+                <div class="add-form">
+                    <label for=""><h4>Phone</h4></label>
+                    <input type="number" name="" id="phone" class="inp" required>
+                </div>
+                <div class="add-form">
+                    <select class="inp" id="role" required>
+                        <option value="" disabled>--select Role--</option>
+                        <option value="Admin" >Admin</option>
+                        <option value="Regular" >Regular</option>
+                    </select>
+                </div>
+
+                <div class="add-form">
+                    <button onclick="RegisterStaff()">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/Staff.js"></script>
+</body>
+</html>
